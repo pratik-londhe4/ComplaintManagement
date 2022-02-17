@@ -5,10 +5,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
      <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
@@ -20,7 +16,7 @@
         <section>
         <nav class="navbar navbar-expand-md bg-dark navbar-dark  fixed-top btn " >
             <div class="container">
-                <a href="#" class="navbar-brand  fs-2">LiveDesk</a>
+                <a href="#" class="navbar-brand  fs-2">People's Bank</a>
  
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                     <span class="navbar-toggler-icon"></span>
@@ -35,15 +31,8 @@
                             <a href="login-type.aspx" class="nav-link">Signin</a>
                         </li>
                         <li class="nav-item">
-                            <a href="register.aspx" class="nav-link">Signup</a>
-                        </li>
-                        <li class="nav-item">
                             <a href="about-us.aspx" class="nav-link">About Us</a>
                         </li>
-                         <li class="nav-item">
-                            <a href="admin-register.aspx" class="nav-link">Admin Registration</a>
-                        </li>
-                        
                     </ul>
                 </div>
             </div>
@@ -53,9 +42,9 @@
         <div class="container">
             <div class="d-sm-flex text-sm-start align-items-center justify-content-between ">
                 <div>
-                    <h1>Handling customer complaints is easier now</h1>
-                    <p class="lead my-4 fw-"> Livedesk Is An Initiative By Government To Hear and Solve The Day To Day Problems Of the Common Man. Sign Up And Report Any Problem  That You Encounter  In Your Surrounding And Report It To The Related Department. </p>
-                   <a href="register.aspx" class="btn btn-lg mb-2 mb-md-5 btn-dark text-light  w-50  input-group"> Signup</></a>
+                    <h1>Handling transactions  is easier now</h1>
+                    <p class="lead my-4 fw-"> Have you tried our new simplified and intuitive business banking platform? Log in to People's Banks  Net Banking to avail business banking services.  </p>
+                   <a href="user-login.aspx" class="btn btn-lg mb-2 mb-md-5 btn-dark text-light  w-50  input-group"> Signin</></a>
                 </div> 
                 <img src="img/collab1.svg" alt="" class="img-fluid w-50 d-none d-sm-block">
             </div>  
@@ -65,7 +54,7 @@
 
     <section class="p-3 bg-dark text-light mb-3">
         <div class="container text-center p-5 pt-2 ">
-            <h3>Why you should  start with LiveDesk's complaint management system?</h3>
+            <h3>Why you should  start with People's Bank Net Banking?</h3>
         </div>
     </section>
 
@@ -82,7 +71,7 @@
                             Virtual
                             </h3>
                             <p class="card-text py-5">
-                            LiveDesk provides a virtual space for smooth and effortless communication.It enables the user to file a complaint from anywhere and at any time.
+                            People's Bank  provides a virtual space for smooth and effortless communication.It enables the user to do  transaction  from anywhere and at any time.
                             </p>
                         </div>
                     </div>
@@ -97,7 +86,7 @@
                             Quick
                             </h3>
                             <p class="card-text py-5">
-                            The Complaints are sorted by department and hence, resulting in dividing the workload and ensuring the complaint is resolved  quickly .
+                            The Net Banking is a one stop for all your banking needs, Which makes it fasters than traditional banking.
                             </p>
                         </div>
                     </div>
@@ -112,7 +101,7 @@
                             User-Friendly
                             </h3>
                             <p class="card-text py-5">
-                            LiveDesk is easy to used software solution for admin as well as users, it has all the necessary functions and is very user-friendly.
+                            People's Bank Net Banking  is easy to used software solution for admin as well as users, it has all the necessary functions and is very user-friendly.
                             </p>
                         </div>
                     </div>
@@ -128,10 +117,9 @@
                     <img src="img/why.svg" alt="" class="img-fluid">
                 </div>
                 <div class="col-md p-5" >
-                    <h2>What is LiveDesk?</h2>
+                    <h2>What is People's Bank Net Banking?</h2>
                     <p class="lead">
-                        LiveDesk is a Complaint management system. Its (also known as a conflict management system, internal conflict management system, integrated conflict management system, or dispute system) is a set of procedures used in organizations to address complaints and resolve disputes.
-                    </p>
+                        Welcome to the redesigned Peoples Bank Net Banking platform. With the all new One Page Banking, get to know what you own and what you owe, view and download Statements for various Accounts,  and do much more. Our intelligent interface helps you with a simpler, more intuitive and personalised banking experience. Click here to get started.                    </p>
                 </div>
             </div>
     </section>
@@ -139,9 +127,9 @@
             <div class="container bg-dar">
             <div class="row align-items-center  justify-content-between">
                 <div class="col-md p-5">
-                    <h2>What is Complaint Management software?</h2>
+                    <h2>What is Net Banking software?</h2>
                     <p class="lead">
-                        Complaint management is the process of handling, managing, responding to, and reporting customer grievances. This process requires a streamlined approach and constant monitoring to ensure faster resolutions.
+                       Net Banking, also known as online banking or Internet Banking, is an electronic payment system. ... Be it transferring funds to another bank account or checking the transaction statements, you can do them all and much more with the help of Internet Banking.
                     </p>
                 </div>
                 <div class="col-md">
@@ -160,10 +148,10 @@
                 <div class="col-md">
                     <h2 class="text-center mb-4">Contact US</h2>
                     <ul class="list-group list-group-flush lead">
-                        <li class="list-group-item"><span class="fw-bold">Main Location: </span>Navi Mumbai Munciple Corporation, Belapur, 410210, Maharashtra</li>
-                        <li class="list-group-item"><span class="fw-bold">Mail: </span>NavimumbaiMCP@MCP.gov
+                        <li class="list-group-item"><span class="fw-bold">Main Location: </span>Navi Mumbai , Belapur, 410210, Maharashtra</li>
+                        <li class="list-group-item"><span class="fw-bold">Mail: </span>Peoplesbank@gmail.org
                          </li>
-                        <li class="list-group-item"><span class="fw-bold">Contact Number: </span>+91 25840 30644, 90827 90955</li>
+                        <li class="list-group-item"><span class="fw-bold">Contact Number: </span>+91 95940 83819</li>
                    
                     </ul>
                 </div>
@@ -178,7 +166,7 @@
     </section>
    <section class="p-2 bg-dark text-white  w-100 bottom-0 text-center ">
         <div class="container ">
-            <p class="lead text-start fs-3">Copyright &copy; 2021 LiveDesk </p>
+            <p class="lead text-start fs-3">Copyright &copy; 2022 People's Bank </p>
         </div>
     </section>
 

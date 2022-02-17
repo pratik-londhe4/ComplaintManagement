@@ -5,11 +5,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
      <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
@@ -18,10 +13,10 @@
 </head>
 <body>
     <form id="form1" runat="server">
-       <section>
+      <section>
         <nav class="navbar navbar-expand-md bg-dark navbar-dark  fixed-top btn " >
             <div class="container">
-                <a href="index.aspx" class="navbar-brand  fs-2">LiveDesk</a>
+                <a href="#" class="navbar-brand  fs-2">People's Bank</a>
  
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                     <span class="navbar-toggler-icon"></span>
@@ -29,20 +24,14 @@
  
                 <div class="collapse navbar-collapse " id="navmenu">
                     <ul class="navbar-nav ms-auto">
-                         <li class="nav-item">
+                        <li class="nav-item">
                             <a href="index.aspx" class="nav-link">Home</a>
                         </li>
                         <li class="nav-item">
                             <a href="login-type.aspx" class="nav-link">Signin</a>
                         </li>
                         <li class="nav-item">
-                            <a href="register.aspx" class="nav-link">Signup</a>
-                        </li>
-                        <li class="nav-item">
                             <a href="about-us.aspx" class="nav-link">About Us</a>
-                        </li>
-                         <li class="nav-item">
-                            <a href="admin-register.aspx" class="nav-link">Admin Registration</a>
                         </li>
                     </ul>
                 </div>
@@ -65,7 +54,6 @@
             <asp:TextBox ID="txtpass"  CssClass="input-group my-3"  placeholder="Enter Password" runat="server" TextMode="Password"></asp:TextBox>
                         <asp:Label ForeColor="Red" runat="server" ID="errormsg"></asp:Label>
             <asp:Button  CssClass="btn btn-info input-group my-3" runat="server" Text="Login" onClick="Login_Click" />
-            <h2 class="lead">Not Registered ? <a href="admin-register.aspx">Register</a> </h2>
 
         </div>
                 </div>
@@ -76,7 +64,7 @@
 
      <section class="p-2 bg-dark text-white  w-100 bottom-0 text-center position-relative">
         <div class="container ">
-            <p class="lead text-start fs-3">Copyright &copy; 2021 LiveDesk </p>
+            <p class="lead text-start fs-3">Copyright &copy; 2022 People's Bank  </p>
         </div>
     </section>
     
